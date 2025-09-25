@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link
 import logo from "../assets/logo.png"; 
 
 const Footer = () => {
@@ -109,19 +110,19 @@ const Footer = () => {
             flexWrap: "wrap",
           }}
         >
-          {/* Updated hrefs to safe placeholders */}
-          <a href="javascript:void(0)" style={{ color: "white", textDecoration: "none" }}>
+          {/* Updated links to React Router Links */}
+          <Link to="/for-sale" style={{ color: "white", textDecoration: "none" }}>
             For Sale
-          </a>
-          <a href="javascript:void(0)" style={{ color: "white", textDecoration: "none" }}>
+          </Link>
+          <Link to="/rentals" style={{ color: "white", textDecoration: "none" }}>
             Rentals
-          </a>
-          <a href="javascript:void(0)" style={{ color: "white", textDecoration: "none" }}>
+          </Link>
+          <Link to="/new-projects" style={{ color: "white", textDecoration: "none" }}>
             New Projects
-          </a>
-          <a href="javascript:void(0)" style={{ color: "white", textDecoration: "none" }}>
+          </Link>
+          <Link to="/property-news" style={{ color: "white", textDecoration: "none" }}>
             Property News
-          </a>
+          </Link>
         </div>
 
         <div style={{ fontSize: "14px", flex: "1 1 100px" }}>
