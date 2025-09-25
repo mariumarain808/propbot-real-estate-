@@ -22,7 +22,6 @@ const Footer = () => {
         padding: "40px 20px",
       }}
     >
-      
       <div style={{ textAlign: "center", marginBottom: "40px" }}>
         <h1 style={{ fontSize: "26px", marginBottom: "10px" }}>
           Get in touch with us
@@ -31,7 +30,6 @@ const Footer = () => {
           Subscribe now for exclusive property insights and deals
         </h2>
 
-       
         <form onSubmit={handleSubmit} style={{ marginTop: "20px" }}>
           <div
             style={{
@@ -77,7 +75,6 @@ const Footer = () => {
         </form>
       </div>
 
-     
       <div
         style={{
           display: "flex",
@@ -90,7 +87,6 @@ const Footer = () => {
           textAlign: "center",
         }}
       >
-        
         <div
           style={{
             display: "flex",
@@ -104,7 +100,6 @@ const Footer = () => {
           <span style={{ fontWeight: "bold", fontSize: "18px" }}>Prop Boot</span>
         </div>
 
-        
         <div
           style={{
             display: "flex",
@@ -114,21 +109,21 @@ const Footer = () => {
             flexWrap: "wrap",
           }}
         >
-          <a href="#" style={{ color: "white", textDecoration: "none" }}>
+          {/* Updated hrefs to safe placeholders */}
+          <a href="javascript:void(0)" style={{ color: "white", textDecoration: "none" }}>
             For Sale
           </a>
-          <a href="#" style={{ color: "white", textDecoration: "none" }}>
+          <a href="javascript:void(0)" style={{ color: "white", textDecoration: "none" }}>
             Rentals
           </a>
-          <a href="#" style={{ color: "white", textDecoration: "none" }}>
+          <a href="javascript:void(0)" style={{ color: "white", textDecoration: "none" }}>
             New Projects
           </a>
-          <a href="#" style={{ color: "white", textDecoration: "none" }}>
+          <a href="javascript:void(0)" style={{ color: "white", textDecoration: "none" }}>
             Property News
           </a>
         </div>
 
-       
         <div style={{ fontSize: "14px", flex: "1 1 100px" }}>
           © 2025 Prop Boot. All rights reserved.
         </div>
